@@ -23,7 +23,7 @@ class Queue {
   }
 }
 
-[n, m, start] = info.split(" ").map(Number);
+const [n, m, start] = info.split(" ").map(Number);
 let visited = new Array(n).fill().map((v) => 0);
 let DFSpath = [];
 
